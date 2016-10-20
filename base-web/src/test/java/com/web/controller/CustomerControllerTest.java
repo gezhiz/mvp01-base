@@ -33,7 +33,7 @@ public class CustomerControllerTest {
     @Test
     public void testGet() throws Exception {
         MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
-
+//
         RequestBuilder requestBuilder = null;
         //获取登录验证码
         requestBuilder = MockMvcRequestBuilders.get("/v1.0/customer/get_login_vcode")
