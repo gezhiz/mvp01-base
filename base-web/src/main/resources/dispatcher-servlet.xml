@@ -46,7 +46,7 @@
     </mvc:interceptors>
 
     <bean id="freemarkerConfig"
-          class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+          class="com.mvp01.shiro.FreeMarkerConfigurer">
         <property name="templateLoaderPath" value="/WEB-INF/ftl/" />
         <property name="freemarkerSettings">
             <props>

@@ -263,6 +263,12 @@
             <systemPath>${basedir}/lib/okhttputils-2_6_1.jar</systemPath>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-all</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+
     </dependencies>
 
 </project>
